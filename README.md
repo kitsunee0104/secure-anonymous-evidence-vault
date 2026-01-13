@@ -4,7 +4,7 @@ A secure, integrity-preserving digital evidence storage system designed for anon
 
 📌 Overview
 
-The Secure Anonymous Evidence Vault is a cybersecurity-focused project(MVP) that enables users to securely upload digital evidence, store it in encrypted form, and later verify its integrity using cryptographic >
+The Secure Anonymous Evidence Vault is a cybersecurity-focused project(MVP) that enables users to securely upload digital evidence, store it in encrypted form, and later verify its integrity using cryptographic hashing.
 
 The system is designed with forensic soundness, confidentiality, and tamper detection in mind — aligning with real-world digital forensics and incident response workflows.
 
