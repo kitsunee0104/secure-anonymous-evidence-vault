@@ -75,13 +75,13 @@ System reports:
 ⚠️ Evidence Tampered
 
 🧰 Tech Stack
-Component	Technology
-Backend         Python (Flask)
-Encryption	Python Cryptography
-Hashing         SHA-256
-Database        SQLite
-Frontend        HTML (Jinja Templates)
-Platform        Linux (Localhost)
+Component	   Technology
+Backend        Python (Flask)
+Encryption	   Cryptography
+Hashing        SHA-256
+Database       SQLite
+Frontend       HTML
+Platform       Linux (Localhost)
 
 🚀 How to Run Locally
 
