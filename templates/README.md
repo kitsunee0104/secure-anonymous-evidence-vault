@@ -12,10 +12,19 @@ The system is designed with forensic soundness, confidentiality, and tamper dete
 
 Digital evidence is often:
 
-Altered intentionally or unintentionally, Stored without proper integrity verification & Difficult to validate during investigations
+Altered intentionally or unintentionally
+
+Stored without proper integrity verification
+
+Difficult to validate during investigations
 
 This project addresses these challenges by implementing:
-Encryption at rest, Hash-based integrity verification & Case-ID–based evidence tracking
+
+Encryption at rest
+
+Hash-based integrity verification
+
+Case-ID–based evidence tracking
 
 🛡️ Key Security Features
 
@@ -51,7 +60,13 @@ User Upload
 
 🧪 Evidence Verification Flow
 
-Investigator provides a Case ID -> Encrypted evidence is retrieved -> Hash is recalculated -> Hash is compared with the original stored hash
+Investigator provides a Case ID
+
+Encrypted evidence is retrieved
+
+Hash is recalculated
+
+Hash is compared with the original stored hash
 
 System reports:
 
@@ -60,14 +75,15 @@ System reports:
 ⚠️ Evidence Tampered
 
 🧰 Tech Stack
-Component		Technology
-Backend	Python		 (Flask)
-Encryption		Python Cryptography
-Hashing			SHA-256
-Database		SQLite
-Frontend		HTML
-Platform		Linux (Localhost)
+Component	Technology
+Backend 	Python (Flask)
+Encryption	Python Cryptography
+Hashing 	SHA-256
+Database	SQLite
+Frontend	HTML (Jinja Templates)
+Platform	Linux (Localhost)
 
+🚀 How to Run Locally
 1️⃣ Clone the repository
 git clone https://github.com/your-username/secure-anonymous-evidence-vault.git
 cd secure-anonymous-evidence-vault
@@ -77,28 +93,27 @@ python3 -m venv venv
 source venv/bin/activate
 
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Run the application
-python3 app.py
 
+python3 app.py
 
 Visit:
 👉 http://127.0.0.1:5000
-
 🔍 Verify Evidence Integrity
+
 python3 verify.py <CASE_ID>
-
-
-Example:
-python3 verify.py bd6e49c7-d10d-495a-a1e6-1cb4accb866a
-
 
 ⚠️ Ethical & Legal Disclaimer
 
 This project is developed strictly for educational and ethical cybersecurity purposes, including:
+
 Digital forensics learning
+
 Secure system design
+
 Evidence handling simulation
 
 ⚠️ Do NOT use this system for illegal surveillance or unauthorized data collection.
